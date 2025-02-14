@@ -40,7 +40,7 @@
  * Changing this does not require an initdb, but it does require a full
  * backend recompile (including any user-defined C functions).
  */
-#define FUNC_MAX_ARGS		100
+#define FUNC_MAX_ARGS		2100
 
 /*
  * When creating a product derived from PostgreSQL with changes that cause
